@@ -1,9 +1,12 @@
 import { ImageSource, Sound, Resource, Loader } from 'excalibur'
+import { Stella } from './stella.js'
 
 // voeg hier jouw eigen resources toe
 const Resources = {
-    Fish: new ImageSource('images/fish.png'),
-    Shark: new ImageSource('images/shark.png')
+    Stella: new ImageSource('images/stella-stand.png'),
+    StellaWalk: new ImageSource('images/stella-walking.png'),
+    Icy: new ImageSource('images/icyy.png'),
+    Background: new ImageSource('images/background.jpg'),
 }
 
 
